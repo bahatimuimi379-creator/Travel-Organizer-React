@@ -1,5 +1,5 @@
 import { useState, useEffect } from 'react'
-import { Link } from 'react-router-dom'
+import PlaceCard from '../Components/PlaceCard'
 
 const regions = ['All', 'Africa', 'Asia', 'South America', 'Europe']
 
@@ -50,20 +50,10 @@ export default function Places() {
       <section className="container py-5">
         {shown.length === 0 && <p className="text-center">No places found.</p>}
 
-        <div className="row">
+        <div className="row g-4">
           {shown.map((p) => (
-            <div className="col-md-4 mb-4" key={p.id}>
-              <div className="card h-100">
-                <img src={p.image} className="card-img-top" alt={p.name} />
-                <div className="card-body">
-                  <small className="text-purple">{p.region}</small>
-                  <h3 className="card-title">{p.name}</h3>
-                  <p className="card-text">{p.text}</p>
-                  <Link to="/packages" className="btn btn-purple">
-                    View Packages
-                  </Link>
-                </div>
-              </div>
+            <div className="col-12 col-sm-6 col-lg-4" key={p.id}>
+              <PlaceCard place={p} />
             </div>
           ))}
         </div>
