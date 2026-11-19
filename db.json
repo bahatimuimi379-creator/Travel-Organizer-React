@@ -43,12 +43,6 @@
       "id": 2
     },
     {
-      "name": "diani",
-      "place": "kenya",
-      "price": 500,
-      "id": 3
-    },
-    {
       "name": "south america",
       "place": "patagonia",
       "price": 1680,
@@ -59,6 +53,12 @@
       "place": "swiss alps",
       "price": 2000,
       "id": 5
+    },
+    {
+      "name": "maasai mara safari",
+      "place": "kenya",
+      "price": 1500,
+      "id": 6
     }
   ]
 }

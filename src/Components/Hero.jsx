@@ -13,7 +13,7 @@ export default function Hero() {
       }}
     >
       <div className="container py-5">
-        <h1 className="display-2 fw-bold">Meet the your perfect destination</h1>
+        <h1 className="display-2 fw-bold">Meet  your perfect destination</h1>
         <p className="lead mb-4">
           Plan your next destination with Our Travel Organizer
         </p>
