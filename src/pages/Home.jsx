@@ -1,6 +1,6 @@
 import Hero from '../Components/Hero'
 import WhereToNext from '../Components/WhereToNext'
-import HowItWorks from '../Components/HowItWorks'
+import Testimonials from '../Components/Testimonials'
 import About from '../Components/About'
 
 export default function Home() {
@@ -8,7 +8,7 @@ export default function Home() {
     <>
       <Hero />
       <WhereToNext />
-      <HowItWorks />
+      <Testimonials />
       <About />
     </>
   )

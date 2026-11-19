@@ -13,14 +13,12 @@ export default function PlaceCard({ place }) {
         <small className="text-purple">{place.region}</small>
         <h3 className="card-title">{place.name}</h3>
         <p className="card-text">{place.text}</p>
-        <div className="mt-auto d-flex gap-2">
-          <Link to={`/places/${place.id}`} className="btn btn-outline-purple">
-            Details
-          </Link>
-          <Link to={`/packages?place=${place.name}`} className="btn btn-purple">
-            View Packages
-          </Link>
-        </div>
+        <Link
+          to={`/packages?place=${place.name}`}
+          className="btn btn-purple mt-auto"
+        >
+          View
+        </Link>
       </div>
     </div>
   )
