@@ -4,7 +4,7 @@
       "id": 1,
       "region": "Africa",
       "name": "maasai mara ",
-      "text": "See the Great Migration in the Maasai Mara.",
+      "text": "See the Great Migration in the Maasai Mara",
       "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTwkucNfd9wg0bbGdMyx_y6RyqKOLQ3Z10SX4hWJt2f6g&s=10",
       "images": ["https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRNPZVgP-8NltfyEYnnY2SdKKm2rFIRdf9Y4Yk_NUZZxg&s=10","https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRaQIW-qM0i5nRqiBIbJJlL6PVBdStrMVODQACsAcLfKQ&s=10"],
       "activities": ["Game drives", "Hot air balloon safari", "Maasai village visit"]
@@ -13,7 +13,7 @@
       "id": 2,
       "region": "Asia",
       "name": "Bali",
-      "text": "Volcano treks, waterfalls and temples.",
+      "text": "Volcano treks, waterfalls and temples",
       "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTjRWJ3lc04RShuc8WfANjabeE8iPsybeMq4ZFOddibjA&s=10",
       "images": ["https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSaAIU9sRZt_iY2WaMElJLl7VY9Tr_Ua5fo7lmRSMh9ig&s=10","https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRI_8Qx67XTDbabmS6zHhXWQ5ZlBoUARUnR4CQcbLi-pw&s=10"],
       "activities": ["Rice terrace walks", "Temple visits", "Surfing lessons"]
@@ -22,7 +22,7 @@
       "id": 3,
       "region": "South America",
       "name": "Patagonia",
-      "text": "Glaciers and mountains for hikers.",
+      "text": "Glaciers and mountains for hikers",
       "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQBKxjdY_yaG8yYCisfyxsiXBnvCJB9NiEo5vEHVNjJ_A&s=10",
       "images": ["https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTWfqGitk5Kn2RUhoyfP-QHl6mgXZ7o7UZwIgw4CLAUQw&s=10","https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRV_CC-OG6frPgPwlomMzbVjJYdcHcJiuv8Hp61IjpzLg&s=10"],
       "activities": ["Glacier trekking", "Kayaking", "Wildlife watching"]
@@ -31,7 +31,7 @@
       "id": 4,
       "region": "Europe",
       "name": "Swiss Alps",
-      "text": "Snowy peaks and scenic train rides.",
+      "text": "Snowy peaks and scenic train rides",
       "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTZqwzctEjA6hAPaKwWGKB4ARdY24X3Gp2jWVRc5cnGEQ&s=10",
       "images": ["https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRjNHjIFZrE3_Fknu_Wz1JyvJ2qHl4rsb_s9dXnB7xmDw&s=10","https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTa6kJEi3G8YT82LWu05KGpK_80GUIxfsx_bZFe3-J7iw&s=10"],
       "activities": ["Skiing", "Scenic train rides", "Alpine hiking"]
@@ -58,7 +58,7 @@
       "id": 7,
       "region": "South America",
       "name": "Amazon",
-      "text": "Rainforest lodges and river cruises.",
+      "text": "Rainforest lodges and river cruises",
       "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR08PgqpB3ugn1xzh9G8AnvJEeXzQvdzQBg48aHGtfA2g&s=10",
       "images": ["https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRpXSVJhraplMn-clqA2yqcJgSyvBaNuuoBDm2xGEYAag&s=10","https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRHb2KxJuTaUBfjIMQBK3lMKli7IX8yTVOyDV6cyFwR6g&s=10"],
       "activities": ["River cruise", "Jungle walks", "Bird watching"]
@@ -67,7 +67,7 @@
       "id": 8,
       "region": "Europe",
       "name": "Santorini",
-      "text": "White villages above a deep blue sea.",
+      "text": "White villages above a deep blue sea",
       "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR5L99gTQ5hUuLEVtPCkiYzlCG7VLOMgD4Ys692gwTKvuPSkasnT6RjG352&s=10",
       "images": [
         "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQSoz_WpIeVmpE-Fc_BYk2JLo1HDSQOu7b9OthK__FS1g&s=10","https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRyC6cQ9i9JAPvrsn433Ecczb8lEI0ZUVd4wCV1TdgMdg&s=10"],
