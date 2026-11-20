@@ -1,0 +1,64 @@
+{
+  "places": [
+    {
+      "id": 1,
+      "region": "Africa",
+      "name": "Kenya",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTwkucNfd9wg0bbGdMyx_y6RyqKOLQ3Z10SX4hWJt2f6g&s=10",
+      "text": "See the Great Migration in the Maasai Mara"
+    },
+    {
+      "id": 2,
+      "region": "Asia",
+      "name": "Bali",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTjRWJ3lc04RShuc8WfANjabeE8iPsybeMq4ZFOddibjA&s=10",
+      "text": "Volcano treks, waterfalls and temples"
+    },
+    {
+      "id": 3,
+      "region": "South America",
+      "name": "Patagonia",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQBKxjdY_yaG8yYCisfyxsiXBnvCJB9NiEo5vEHVNjJ_A&s=10",
+      "text": "Glaciers and mountains for hikers"
+    },
+    {
+      "id": 4,
+      "region": "Europe",
+      "name": "Swiss Alps",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTZqwzctEjA6hAPaKwWGKB4ARdY24X3Gp2jWVRc5cnGEQ&s=10",
+      "text": "Snowy peaks and scenic train rides"
+    }
+  ],
+  "packages": [
+    {
+      "id": 1,
+      "name": "Maasai Mara Safari",
+      "place": "Kenya",
+      "price": 1200
+    },
+    {
+      "name": "bali",
+      "place": "beach",
+      "price": 2900,
+      "id": 2
+    },
+    {
+      "name": "south america",
+      "place": "patagonia",
+      "price": 1680,
+      "id": 4
+    },
+    {
+      "name": "europe",
+      "place": "swiss alps",
+      "price": 2000,
+      "id": 5
+    },
+    {
+      "name": "maasai mara safari",
+      "place": "kenya",
+      "price": 1500,
+      "id": 6
+    }
+  ]
+}
