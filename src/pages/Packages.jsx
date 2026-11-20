@@ -1,9 +1,12 @@
-import { useState, useEffect } from 'react'
+import { useState, useEffect, useContext } from 'react'
 import { Link, useSearchParams } from 'react-router-dom'
+import { AuthContext } from '../context/AuthContext'
+import PackageRow from '../Components/PackageRow'
 
 const url = 'http://localhost:3001/packages'
 
 export default function Packages() {
+  const { isAdmin } = useContext(AuthContext)
   const [packages, setPackages] = useState([])
   const [name, setName] = useState('')
   const [place, setPlace] = useState('')
@@ -72,41 +75,48 @@ export default function Packages() {
         </p>
       )}
 
-      <form onSubmit={handleSubmit} className="row g-2 mb-4">
-        <div className="col-md-4">
-          <input
-            className="form-control"
-            placeholder="Package name"
-            value={name}
-            onChange={(e) => setName(e.target.value)}
-          />
-        </div>
-        <div className="col-md-3">
-          <input
-            className="form-control"
-            placeholder="Place"
-            value={place}
-            onChange={(e) => setPlace(e.target.value)}
-          />
-        </div>
-        <div className="col-md-3">
-          <input
-            className="form-control"
-            type="number"
-            placeholder="Price"
-            value={price}
-            onChange={(e) => setPrice(e.target.value)}
-          />
-        </div>
-        <div className="col-md-2">
-          <button className="btn btn-purple w-100" type="submit">
-            Add
-          </button>
-        </div>
-      </form>
+      {isAdmin ? (
+        <form onSubmit={handleSubmit} className="row g-2 mb-4">
+          <div className="col-md-4">
+            <input
+              className="form-control"
+              placeholder="Package name"
+              value={name}
+              onChange={(e) => setName(e.target.value)}
+            />
+          </div>
+          <div className="col-md-3">
+            <input
+              className="form-control"
+              placeholder="Place"
+              value={place}
+              onChange={(e) => setPlace(e.target.value)}
+            />
+          </div>
+          <div className="col-md-3">
+            <input
+              className="form-control"
+              type="number"
+              placeholder="Price"
+              value={price}
+              onChange={(e) => setPrice(e.target.value)}
+            />
+          </div>
+          <div className="col-md-2">
+            <button className="btn btn-purple w-100" type="submit">
+              Add
+            </button>
+          </div>
+        </form>
+      ) : (
+        <p className="mb-4">
+          Only the admin can change packages.{' '}
+          <Link to="/login" className="text-purple">Admin login</Link>
+        </p>
+      )}
 
       {shown.length === 0 ? (
-        <p>{placeFilter ? `No packages for ${placeFilter} yet.` : 'No packages yet. Add one above.'}</p>
+        <p>{placeFilter ? `No packages for ${placeFilter} yet.` : 'No packages yet.'}</p>
       ) : (
         <div className="table-responsive">
           <table className="table align-middle">
@@ -115,30 +125,18 @@ export default function Packages() {
                 <th>Package</th>
                 <th>Place</th>
                 <th>Price</th>
-                <th></th>
+                {isAdmin && <th></th>}
               </tr>
             </thead>
             <tbody>
               {shown.map((p) => (
-                <tr key={p.id}>
-                  <td>{p.name}</td>
-                  <td>{p.place}</td>
-                  <td>${p.price}</td>
-                  <td className="text-end">
-                    <button
-                      className="btn btn-outline-purple btn-sm me-2"
-                      onClick={() => handleChangePrice(p)}
-                    >
-                      Change price
-                    </button>
-                    <button
-                      className="btn btn-outline-danger btn-sm"
-                      onClick={() => handleDelete(p.id)}
-                    >
-                      Delete
-                    </button>
-                  </td>
-                </tr>
+                <PackageRow
+                  key={p.id}
+                  pack={p}
+                  isAdmin={isAdmin}
+                  onChangePrice={handleChangePrice}
+                  onDelete={handleDelete}
+                />
               ))}
             </tbody>
           </table>
