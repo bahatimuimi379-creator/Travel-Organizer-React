@@ -13,10 +13,7 @@ export default function PlaceCard({ place }) {
         <small className="text-purple">{place.region}</small>
         <h3 className="card-title">{place.name}</h3>
         <p className="card-text">{place.text}</p>
-        <Link
-          to={`/packages?place=${place.name}`}
-          className="btn btn-purple mt-auto"
-        >
+        <Link to={`/places/${place.id}`} className="btn btn-purple mt-auto">
           View
         </Link>
       </div>

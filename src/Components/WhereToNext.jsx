@@ -20,9 +20,12 @@ export default function WhereToNext() {
         </Link>
       </div>
 
-      <div className="row g-4">
-        {places.map((p) => (
-          <div className="col-6 col-md-3" key={p.id}>
+      <div className="row g-4 pb-5">
+        {places.map((p, index) => (
+          <div
+            className={index % 2 === 1 ? 'col-6 col-md-3 mt-md-5' : 'col-6 col-md-3'}
+            key={p.id}
+          >
             <div
               className="rounded-4 text-white d-flex flex-column justify-content-end p-3"
               style={{

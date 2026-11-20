@@ -3,62 +3,86 @@
     {
       "id": 1,
       "region": "Africa",
-      "name": "Kenya",
+      "name": "maasai mara ",
+      "text": "See the Great Migration in the Maasai Mara.",
       "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTwkucNfd9wg0bbGdMyx_y6RyqKOLQ3Z10SX4hWJt2f6g&s=10",
-      "text": "See the Great Migration in the Maasai Mara"
+      "images": ["https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRNPZVgP-8NltfyEYnnY2SdKKm2rFIRdf9Y4Yk_NUZZxg&s=10","https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRaQIW-qM0i5nRqiBIbJJlL6PVBdStrMVODQACsAcLfKQ&s=10"],
+      "activities": ["Game drives", "Hot air balloon safari", "Maasai village visit"]
     },
     {
       "id": 2,
       "region": "Asia",
       "name": "Bali",
+      "text": "Volcano treks, waterfalls and temples.",
       "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTjRWJ3lc04RShuc8WfANjabeE8iPsybeMq4ZFOddibjA&s=10",
-      "text": "Volcano treks, waterfalls and temples"
+      "images": ["https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSaAIU9sRZt_iY2WaMElJLl7VY9Tr_Ua5fo7lmRSMh9ig&s=10","https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRI_8Qx67XTDbabmS6zHhXWQ5ZlBoUARUnR4CQcbLi-pw&s=10"],
+      "activities": ["Rice terrace walks", "Temple visits", "Surfing lessons"]
     },
     {
       "id": 3,
       "region": "South America",
       "name": "Patagonia",
+      "text": "Glaciers and mountains for hikers.",
       "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQBKxjdY_yaG8yYCisfyxsiXBnvCJB9NiEo5vEHVNjJ_A&s=10",
-      "text": "Glaciers and mountains for hikers"
+      "images": ["https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTWfqGitk5Kn2RUhoyfP-QHl6mgXZ7o7UZwIgw4CLAUQw&s=10","https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRV_CC-OG6frPgPwlomMzbVjJYdcHcJiuv8Hp61IjpzLg&s=10"],
+      "activities": ["Glacier trekking", "Kayaking", "Wildlife watching"]
     },
     {
       "id": 4,
       "region": "Europe",
       "name": "Swiss Alps",
+      "text": "Snowy peaks and scenic train rides.",
       "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTZqwzctEjA6hAPaKwWGKB4ARdY24X3Gp2jWVRc5cnGEQ&s=10",
-      "text": "Snowy peaks and scenic train rides"
+      "images": ["https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRjNHjIFZrE3_Fknu_Wz1JyvJ2qHl4rsb_s9dXnB7xmDw&s=10","https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTa6kJEi3G8YT82LWu05KGpK_80GUIxfsx_bZFe3-J7iw&s=10"],
+      "activities": ["Skiing", "Scenic train rides", "Alpine hiking"]
+    },
+    {
+      "id": 5,
+      "region": "Africa",
+      "name": "Serengeti",
+      "text": "Endless savannah and huge herds of wildebeest",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ63OPyrN-mHJyi-VG6eN37zVBK4dg6hw_QSrE9b0Qb_A&s=10",
+      "images": ["https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSRx9OiqY3cyutnFuk-GZLC08GAw1_VYIjM6RIHgKAKog&s=10","https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ6UErrCfGAssSeVNgB2lw8KiI6gxrDjT5OrUeCjfULTg&s=10"],
+      "activities": ["Safari camping", "Wildebeest river crossings", "Sunrise bush walks"]
+    },
+    {
+      "id": 6,
+      "region": "Asia",
+      "name": "Kyoto",
+      "text": "Quiet temples, gardens and tea houses",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQhxEsN5ysqH5G5K7P4wxsYPNLUrGfKxGH3R1QJFG23dA&s=10",
+      "images": ["https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTtlqHYbln926f3ICXhTEuL_XyGFXTq92oeAvT_ya9r1w&s=10","https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRvhVmFlNKBrJkwN_MxLT_OCmZrwQfkZiddTKqhoaGE6Q&s=10"],
+      "activities": ["Tea ceremony", "Bamboo forest walk", "Temple tour"]
+    },
+    {
+      "id": 7,
+      "region": "South America",
+      "name": "Amazon",
+      "text": "Rainforest lodges and river cruises.",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR08PgqpB3ugn1xzh9G8AnvJEeXzQvdzQBg48aHGtfA2g&s=10",
+      "images": ["https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRpXSVJhraplMn-clqA2yqcJgSyvBaNuuoBDm2xGEYAag&s=10","https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRHb2KxJuTaUBfjIMQBK3lMKli7IX8yTVOyDV6cyFwR6g&s=10"],
+      "activities": ["River cruise", "Jungle walks", "Bird watching"]
+    },
+    {
+      "id": 8,
+      "region": "Europe",
+      "name": "Santorini",
+      "text": "White villages above a deep blue sea.",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR5L99gTQ5hUuLEVtPCkiYzlCG7VLOMgD4Ys692gwTKvuPSkasnT6RjG352&s=10",
+      "images": [
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQSoz_WpIeVmpE-Fc_BYk2JLo1HDSQOu7b9OthK__FS1g&s=10","https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRyC6cQ9i9JAPvrsn433Ecczb8lEI0ZUVd4wCV1TdgMdg&s=10"],
+      "activities": ["Sunset viewing", "Boat trips", "Wine tasting"]
     }
   ],
   "packages": [
-    {
-      "id": 1,
-      "name": "Maasai Mara Safari",
-      "place": "Kenya",
-      "price": 1200
-    },
-    {
-      "name": "bali",
-      "place": "beach",
-      "price": 2900,
-      "id": 2
-    },
-    {
-      "name": "south america",
-      "place": "patagonia",
-      "price": 1680,
-      "id": 4
-    },
-    {
-      "name": "europe",
-      "place": "swiss alps",
-      "price": 2000,
-      "id": 5
-    },
-    {
-      "name": "maasai mara safari",
-      "place": "kenya",
-      "price": 1500,
-      "id": 6
-    }
+    { "id": 1, "name": "Maasai Mara Safari", "place": "Kenya", "price": 1200 },
+    { "id": 2, "name": "bali", "place": "Bali", "price": 2900 },
+    { "id": 4, "name": "south america", "place": "Patagonia", "price": 1680 },
+    { "id": 5, "name": "europe", "place": "Swiss Alps", "price": 2000 },
+    { "id": 6, "name": "maasai mara safari", "place": "Kenya", "price": 1500 },
+    { "id": 7, "name": "Serengeti Camping", "place": "Serengeti", "price": 1500 },
+    { "id": 8, "name": "Kyoto Culture Week", "place": "Kyoto", "price": 1400 },
+    { "id": 9, "name": "Amazon River Cruise", "place": "Amazon", "price": 1100 },
+    { "id": 10, "name": "Santorini Sunset Stay", "place": "Santorini", "price": 1300 }
   ]
 }
