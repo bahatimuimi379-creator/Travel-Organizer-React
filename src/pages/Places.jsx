@@ -1,22 +1,17 @@
-import { useState, useEffect } from 'react'
+import { useState } from 'react'
 import PlaceCard from '../Components/PlaceCard'
 import SearchBar from '../Components/SearchBar'
 import Pagination from '../Components/Pagination'
+import useFetch from '../hooks/useFetch'
 
 const regions = ['All', 'Africa', 'Asia', 'South America', 'Europe']
 const perPage = 6
 
 export default function Places() {
-  const [places, setPlaces] = useState([])
+  const { data: places, loading, error } = useFetch('http://localhost:3001/places')
   const [region, setRegion] = useState('All')
   const [search, setSearch] = useState('')
   const [page, setPage] = useState(1)
-
-  useEffect(() => {
-    fetch('http://localhost:3001/places')
-      .then((res) => res.json())
-      .then((data) => setPlaces(data))
-  }, [])
 
   const filtered = places.filter((p) => {
     const matchesRegion = region === 'All' || p.region === region
@@ -64,7 +59,11 @@ export default function Places() {
       </section>
 
       <section className="container py-5">
-        {shown.length === 0 && <p className="text-center">No places found.</p>}
+        {loading && <p className="text-center">Loading...</p>}
+        {error && <p className="text-center text-danger">{error}</p>}
+        {!loading && !error && shown.length === 0 && (
+          <p className="text-center">No places found.</p>
+        )}
 
         <div className="row g-4">
           {shown.map((p) => (
